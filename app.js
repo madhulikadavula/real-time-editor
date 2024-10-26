@@ -1,7 +1,7 @@
 function saveFile() {
     var fileName=prompt("What is the name of file?", "");
     if (fileName != null && (document.getElementById("htmlCode").value != "" || document.getElementById("cssCode").value != "" || document.getElementById("javascriptCode").value != "")){
-        var htmlCode=document.getElementById('htmlCode').value;
+        var htmlCode=document.getElementById('HTMLCode').value;
         var cssCode=document.getElementById('cssCode').value;
         var javascriptCode=document.getElementById('javascriptCode').value;
         let text=htmlCode+"<style>"+cssCode+"</style>"+"<scri"+"pt>"+javascriptCode+"</scri"+"pt>";
